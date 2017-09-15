@@ -1,0 +1,14 @@
+response_type
+required
+Whether the endpoint returns an authorization code. For web applications, a value of code should be used.
+client_id
+required
+The client_id you obtained in the Initial Setup.
+redirect_uri
+required
+An HTTPS URI or custom URL scheme where the response will be redirected. Must be registered with Box in the application console. Wildcard redirect_uri values are also accepted in the request as long as the base url matches the URI registered in the application console. A registered redirect_uri of https://www.myboxapp.com can be dynamically redirected to https://www.myboxapp.com/user1234 if passed into the request redirect_uri parameter.
+state
+optional
+An arbitrary string of your choosing that will be included in the response to your application. Anything that might be useful for your application can be included. Box roundtrips this information back to your application, and strongly recommends that you include an anti-forgery token, and confirm it in the response to prevent CSRF attacks to your users.
+box_login
+The email address of the user that you want to have pre-populated in the login form

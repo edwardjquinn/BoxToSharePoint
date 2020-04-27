@@ -1,7 +1,7 @@
 # BoxToSharePoint
 
 create a box developer account and sign in to register your application 
-  here: http://bit.ly/2x94JY9
+  here: https://cloud.account.box.com/login?redirect_url=/developers/services/edit/
  
 set your redirect URI (www.google.com)
 
